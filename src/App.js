@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import freinds from './freinds.png';
+import night from './night.mp4';
+import './style.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div style={{border:"solid 1px black",maxWidth:"100vw"}}>
+        <h1 className="title red">Netflix Production</h1>
+        <div class="form">
+          <img class="image" src="/dark.png" />
+          <img class="image" src={freinds} />
+        </div>
+      </div>
+      
+      <video class="myvideo" width="320" height="240" controls>
+        <source src={night} type="video/mp4" />
+      </video>
     </div>
   );
 }

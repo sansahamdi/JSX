@@ -1,0 +1,32 @@
+.App{
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+.image{
+    width: 50%;
+    height: 300px;
+    padding: 10px;
+  
+  }
+  
+  .form{
+    display: flex;
+  }
+  
+  .myvideo{
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  .red{
+    color: red;
+  }
+  
+  .myvideo{
+      height: auto;
+      padding-top: 10px;
+  }
